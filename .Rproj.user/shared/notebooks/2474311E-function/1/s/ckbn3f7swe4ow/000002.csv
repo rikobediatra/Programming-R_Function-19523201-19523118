@@ -1,0 +1,7 @@
+"0","f2 <- function(x){"
+"0","  hasil <- log(x)"
+"0","  return(hasil)"
+"0","}"
+"0",""
+"0","input <- 0:20"
+"0","plot(input, sapply(input, f2),type = ""l"", xlab = ""x"", ylab = ""f(x)"")"

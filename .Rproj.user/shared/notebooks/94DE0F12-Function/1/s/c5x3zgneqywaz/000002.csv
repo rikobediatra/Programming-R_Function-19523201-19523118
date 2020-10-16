@@ -1,0 +1,8 @@
+"0","```r
+f <- function(x){
+  fx <- x^4 - 4*x^3 + 6*x^2 - 4*x
+  return(fx)
+}
+input<- seq(-10 , 11 , 0.1 )
+plot(input,sapply(input,f), type = \"l\", xlab = \"x\", ylab = \"f(x)\")
+```"

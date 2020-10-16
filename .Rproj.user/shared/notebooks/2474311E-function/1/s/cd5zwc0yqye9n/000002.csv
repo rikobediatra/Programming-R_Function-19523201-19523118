@@ -1,0 +1,8 @@
+"0","f4 <- function(x){"
+"0","  hasil <- sqrt(x-2)"
+"0","  return(hasil)"
+"0","}"
+"0","input <- 0:10"
+"0","plot(input, sapply(input, f4),type = ""l"", xlab = ""x"", ylab = ""f(x)"")"
+"2","NaNs produced"
+"2","NaNs produced"

@@ -1,0 +1,9 @@
+"0","```r
+f <- function(x){
+  fx <- x^3
+  return(fx)
+}
+input<- seq(-10 , 11 , 0.1 )
+plot(input,sapply(input,f), type = \"l\", xlab = \"x\", ylab = \"f(x)\")
+
+```"

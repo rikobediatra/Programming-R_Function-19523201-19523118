@@ -1,0 +1,6 @@
+"0","f5 <- function(x){"
+"0","  hasil <- sqrt(2-x)"
+"0","  return(hasil)"
+"0","}"
+"0","input <- 2:20"
+"0","plot(input, sapply(input, f4),type = ""l"", xlab = ""x"", ylab = ""f(x)"")"
